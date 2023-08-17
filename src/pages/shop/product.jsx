@@ -16,7 +16,7 @@ const Product = (props) => {
                 <p>${price}</p>
             </div>
             <button className="addToCartBttn" onClick={() => addToCart(id)}>
-                Add To Cart {cartItemAmount > 0 && (<p>{cartItemAmount}</p>)}
+                Add To Cart {cartItemAmount > 0 && (<>{cartItemAmount}</>)}
             </button>
         </div>
      );
