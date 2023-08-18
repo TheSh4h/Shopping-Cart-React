@@ -2,6 +2,7 @@ import "./cart.css";
 
 const CartItem = (props) => {
     const { id, productName, price, productImage } = props.data;
+    
     return ( 
         <div className="cartItem">
             <img src={productImage} />
